@@ -1,0 +1,54 @@
+.drop-down{
+  width: 300px;
+  margin: auto;
+  margin-top:20px;
+  border: 1px solid #cecece;
+}
+
+.drop-bar{
+  height:40px;
+  line-height: 40px;
+  padding: 5px 10px;
+  border-bottom: 1px solid #cecece;
+  cursor: pointer;
+}
+
+.drop-bar > span{
+  float:right;
+}
+
+.options-list{
+  width: 300px;
+  height: auto;
+  min-height: 100px;
+  border-top: none;
+}
+
+.option-item{
+  height: 30px;
+  line-height: 30px;
+  padding-left: 5px;
+  border-bottom: 1px solid #cecece;
+}
+
+.option-item .value{
+cursor: pointer;
+}
+
+.option-item button{
+  position: relative;
+  right: 5px;
+  top: 3px;
+}
+
+.option-item .more-count{
+  float: right;
+}
+
+.options-list input{
+    width: 250px;
+    margin: 10px auto;
+    padding: 10px 0 10px 10px;
+    display: block;
+    border: 1px solid #cecece;
+}
